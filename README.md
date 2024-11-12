@@ -1,5 +1,7 @@
 # Grow Analytics Project
 
+Informe resumido : https://drive.google.com/file/d/1tFC6LU4Lfm30RDNaM2IM95ktcbd-rr2S/view?usp=sharing
+
 Este proyecto contiene un sistema completo dividido en dos partes:
 
 - **Backend**: Una API REST construida con Node.js, Express y Prisma, conectada a una base de datos MySQL.
