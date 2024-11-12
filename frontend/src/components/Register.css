@@ -1,0 +1,89 @@
+/* Contenedor principal */
+.register-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3f4f6;
+    min-height: 100vh;
+  }
+  
+  /* Estilo de la tarjeta de registro */
+  .register-card {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .register-form {
+    flex: 1;
+    padding: 40px;
+  }
+  
+  .register-title {
+    text-align: left;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .register-button {
+    width: 100%;
+    background-color: #1890ff;
+    border-color: #1890ff;
+    color: #fff;
+  }
+  
+  .already-member {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #1890ff;
+  }
+  
+  .register-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7f9fc;
+    padding: 40px;
+  }
+  
+  .image-desk {
+    max-width: 300px;
+    height: auto;
+  }
+  
+  /* Estilos Responsivos */
+  @media (min-width: 768px) {
+    .register-card {
+      flex-direction: row;
+    }
+  
+    .register-form {
+      flex: 1;
+      padding: 60px;
+    }
+  
+    .register-image {
+      flex: 1;
+    }
+  
+    .image-desk {
+      max-width: 400px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .register-title {
+      font-size: 24px;
+    }
+  
+    .register-form {
+      padding: 20px;
+    }
+  }
+  

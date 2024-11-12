@@ -1,0 +1,25 @@
+/* index.css */
+body.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* Opcional: Estilos adicionales para componentes */
+.ant-layout, .ant-table {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.light-mode .ant-layout, .light-mode .ant-table {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.dark-mode .ant-layout, .dark-mode .ant-table {
+  background-color: #333333;
+  color: #ffffff;
+}
